@@ -1,0 +1,266 @@
+@charset "ISO-8859-1";
+
+.land{
+	height:100vh;
+	padding-left: 10%;
+	
+}
+
+.welcome{
+	font-size: 45px;
+	
+}
+.land h1 {
+    font-size: 50px;
+    
+}
+
+
+.care{
+	color:#E67E22;
+}
+.come{
+	color:#E67E22;
+}
+.x{
+	font-size: 100px;
+}
+#home{
+	content: "";
+	background-image: url('https://unsplash.com/photos/person-holding-black-samsung-android-smartphone--16na5rDDRk');
+  	background-size: cover;
+  	background-repeat: no-repeat;
+  	background-position: center; 
+}
+
+
+#info{
+	height:100vh;
+	display: flex;
+    justify-content: center;
+}
+
+#service{
+	
+	display: flex;
+    justify-content: center;
+    background-image: url('https://images.unsplash.com/photo-1498887960847-2a5e46312788?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+  	background-size: cover;
+}
+
+#history{
+	
+	height:100vh;
+	display: flex;
+    align-items: center;
+	margin-top: 10%;
+	flex-direction: column;
+}
+
+
+table {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+ td, th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2;}
+
+tr:hover {background-color: #ddd;}
+
+th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color:#34495E ;
+  color: white;
+}
+
+
+
+.delete {
+  background-color: #f44336;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+  border-radius: 25px;
+}
+
+.delete:hover {
+  opacity:1;
+}
+
+.cancelbtn, .deletebtn {
+	border:0;
+  float: left;
+  height:40px;
+  width: 50%;
+}
+
+.cancelbtn {
+  background-color:#04AA6D;
+  color: black;
+}
+
+.deletebtn {
+  background-color: #f44336;
+}
+
+.container2 {
+  padding: 16px;
+  text-align: center;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: #474e5d;
+  padding-top: 50px;
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+ 
+.close {
+  position: absolute;
+  right: 35px;
+  top: 15px;
+  font-size: 40px;
+  font-weight: bold;
+  color: #f1f1f1;
+}
+
+.close:hover,
+.close:focus {
+  color: #f44336;
+  cursor: pointer;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+@media screen and (max-width: 300px) {
+  .cancelbtn, .deletebtn {
+     width: 100%;
+  }
+}
+
+.history-title h1{
+	font-size: 2rem;
+    font-weight: 700;
+	
+}
+.foroms{
+	position:inherit;
+	padding-top: 30px;
+}
+
+.past h2{
+	font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+
+	}
+.future h2{
+	font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+	
+}
+
+
+
+
+
+/* CSS */
+.res {
+  align-items: center;
+  background-color: #fee6e3;
+  border: 2px solid #111;
+  border-radius: 8px;
+  box-sizing: border-box;
+  color: #111;
+  cursor: pointer;
+  display: flex;
+  font-family: Inter,sans-serif;
+  font-size: 16px;
+  height: 48px;
+  justify-content: center;
+  line-height: 24px;
+  width: 100%;
+  max-width: 100%;
+  padding: 0 25px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.res:after {
+  background-color: #111;
+  border-radius: 8px;
+  content: "";
+  display: block;
+  height: 48px;
+  left: 0;
+  width: 100%;
+  position: absolute;
+  top: -2px;
+  transform: translate(8px, 8px);
+  transition: transform .2s ease-out;
+  z-index: -1;
+}
+
+.res:hover:after {
+  transform: translate(0, 0);
+}
+
+.res:active {
+  background-color: #ffdeda;
+  outline: 0;
+}
+
+.res:hover {
+  outline: 0;
+}
+
+@media (min-width: 768px) {
+  .res {
+    padding: 0 40px;
+  }
+}
+
+.table{
+	border-collapse: collapse;
+	
+	margin-bottom:5%;
+}
